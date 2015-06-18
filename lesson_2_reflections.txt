@@ -25,3 +25,7 @@ They show at which point the branches were created, and all the commits that wer
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It incorporates the changes of both branches. The diagram shows how a fork in the development timeline was made and later combined back into one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves us the time of reviewing the changes we are merging that do not conflict with the changes on the branch we are currently working on.
