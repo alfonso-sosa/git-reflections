@@ -17,3 +17,7 @@ We can revert to that state, or fetch the changes that have been made to it, to 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 With another source control system. Branching and sharing work, or working on an experimental branch by myself would be harder. Adding chanes to the remote master is simpler in tools like SVN, but it's easier for other people to introduce mistakes, since a review of those changes is not enforced.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I want to experiment with new changes that might break the build. Otherwise, smaller, less risky changes could be done in master.
